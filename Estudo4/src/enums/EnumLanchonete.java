@@ -65,8 +65,6 @@ public class EnumLanchonete {
 	}
 	
 	public static double soma(int opcao){
-		double total=0;
-		
 		switch(opcao){
 			case 1:
 				return Bebida.CocaCola.getPreco();
